@@ -1,0 +1,22 @@
+#CI/CD (Continuos integration - Continuos Delivery/deployment) 
+
+So today we will create our first pipelines for CI process.
+
+We have to keep in mind that we are working on a local environment so we dont have a PUBLIC URL in order to connect jenkins with github via webhook. 
+
+To solve this problem we have many alternatives like:
+- Make a DNS forwarding to our router using tools such as DuckDNS and NO-Ip
+- Buy a public IP (Good luck)
+- Use ngrok
+- Use serveo
+
+For this guide we'll use serveo because is easier and simplest than the other options. 
+
+## Prerequisites
+- A Jenkins server running
+- Github repository
+
+## Steps
+
+1. Open terminal and paste command: ssh -R 80:<localhost_with_jenkins_port_number> serveo.net
+2. 
