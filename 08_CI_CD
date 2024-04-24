@@ -19,4 +19,6 @@ For this guide we'll use serveo because is easier and simplest than the other op
 ## Steps
 
 1. Open terminal and paste command: ssh -R 80:<localhost_with_jenkins_port_number> serveo.net
-2. 
+2. Create a webhook in the repository
+3. Create a multibranch pipeline
+4. Add jenkinsfile
